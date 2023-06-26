@@ -1,0 +1,24 @@
+{
+    "name": "umbalaconmeogia/yii2-japanpost-zipcode-csv",
+    "description": "Webpage to view Japanpost zipcode CSV data",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+		"japanpost",
+        "zipcode"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tran Trung Thanh",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "umbalaconmeogia\\japanzipcodecsv\\": "src/"
+        }
+    }
+}
