@@ -26,7 +26,7 @@ class Module extends \yii\base\Module
 
         // Config for command line.
         if (Yii::$app instanceof \yii\console\Application) {
-            $this->controllerNamespace = 'umbalaconmeogia\i18nui\commands';
+            $this->controllerNamespace = 'umbalaconmeogia\japanzipcodecsv\commands';
         }
     }
 

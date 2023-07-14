@@ -9,7 +9,7 @@ This is how to setup environment for developing an yii2 module.
     ```json
     "require-dev": {
         // Other stuffs
-		"umbalaconmeogia/yii2-japanpost-zipcode-csv": "@dev"
+		    "umbalaconmeogia/yii2-japanpost-zipcode-csv": "@dev"
     },
     ```
   * Add the path to the module source code to `repositories`, for example
