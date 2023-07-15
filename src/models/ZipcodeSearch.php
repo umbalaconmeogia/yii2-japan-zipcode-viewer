@@ -101,8 +101,11 @@ class ZipcodeSearch extends Zipcode
      */
     protected function andFilterWhere(ActiveQuery $query, $attribute, $value)
     {
-        $fullTextSearch = strpos($value, '%') === FALSE;
-        $query->andFilterWhere(['like', $attribute, $value, $fullTextSearch]);
+        $condition = ['like', $attribute, $value];
+        if (strpos($value, '%') !== FALSE) {
+            $condition[] = FALSE;
+        }
+        $query->andFilterWhere($condition);
         return $this;
     }
 }
