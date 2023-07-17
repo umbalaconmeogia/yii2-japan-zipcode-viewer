@@ -26,7 +26,7 @@ return [
     'Has Chome' => '丁目有無',
     'ID' => '',
     'introName' => '日本郵便番号CSV',
-    'introDescription' => 'これは<a href="https://www.post.japanpost.jp/zipcode/download.html">日本郵便が公開する郵便番号のCSVデータ</a>を閲覧するウェブサイトである。',
+    'introDescription' => 'これは<a href="https://www.post.japanpost.jp/zipcode/download.html" target="_blank">日本郵便が公開する郵便番号のCSVデータ</a>を閲覧するウェブサイトである。',
     'Key' => 'キー',
     'Local Public Entity Code' => '地方公共団体コード',
     'Modified' => '更新フラグ',
