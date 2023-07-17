@@ -1,6 +1,6 @@
 # yii2-japanpost-zipcode-csv
 
-This is a simple webpage to view Japanpost zipcode data download from [Japan Post](https://www.post.japanpost.jp/zipcode/download.html).
+This is a website to view Japanpost zipcode data published at [Japan Post](https://www.post.japanpost.jp/zipcode/download.html).
 
 It is release as an yii2 module so that can be added into yii2 web application.
 

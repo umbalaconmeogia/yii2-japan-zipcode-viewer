@@ -2,6 +2,7 @@
 namespace umbalaconmeogia\japanzipcodecsv;
 
 use Yii;
+use yii\helpers\Url;
 
 class Module extends \yii\base\Module
 {
@@ -44,5 +45,26 @@ class Module extends \yii\base\Module
                 'japanzipcodecsv' => 'japanzipcodecsv.php',
             ],
         ];
+    }
+
+    /**
+     * @return string
+     */
+    public function getIntroName()
+    {
+        return Yii::t('japanzipcodecsv', 'introName');
+    }
+
+    /**
+     * @return string
+     */
+    public function getIntroDescription()
+    {
+        return Yii::t('japanzipcodecsv', 'introDescription');
+    }
+
+    public function getIntroUrl()
+    {
+        return Url::to(["{$this->id}/intro/index"]);
     }
 }
